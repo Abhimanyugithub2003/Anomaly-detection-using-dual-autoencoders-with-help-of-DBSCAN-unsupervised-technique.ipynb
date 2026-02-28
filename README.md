@@ -1,0 +1,2 @@
+# Anomaly-detection-using-dual-autoencoders-with-help-of-DBSCAN-unsupervised-technique.ipynb
+A robust system for identifying sensor faults and ecological events by employing a dual-autoencoder architecture: the first autoencoder uses wavelet transforms for signal reconstruction to detect transient spikes, while the second operates in the feature domain to identify systematic drift, with consensus scoring for high-fidelity anomaly alerts.
