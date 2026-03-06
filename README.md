@@ -11,3 +11,6 @@ OBJECTIVE OF THE INVENTION (Provide minimum two)
 
 PROBLEM ADDRESSED BY THE INVENTION:  
 Environmental interference, calibration drift, and sensor malfunctions cause data quality degradation in current environmental sensor networks. While supervised models require labelled defect data, which are infrequently available, manual validation is unfeasible at scale. This innovation provides autonomous anomaly detection in dynamic, dispersed sensing systems by doing away with the need for manual calibration and labelled datasets.
+
+
+To use this project, a sample sythetic dataset is provide replace the cvs file withe the provide sample dataset inoredr to test the project
