@@ -14,3 +14,22 @@ Environmental interference, calibration drift, and sensor malfunctions cause dat
 
 
 To use this project, a sample sythetic dataset is provide replace the cvs file withe the provide sample dataset inoredr to test the project
+
+
+#Interactive webpage is also provide for better visualization and for better management of data understanding
+How to use it:
+
+1.Drop or upload your iot_telemetry_data.csv
+2.Select which sensor columns to analyze (auto-detects temp, humidity, co, lpg, smoke)
+3.Tune the parameters (window size, step, DBSCAN eps/min_samples, anomaly percentile)
+4.Hit ⚡ RUN DETECTION
+
+What it does (web based visual representation of notebook):
+
+Sliding windows — same 128/64 logic as notebook (can be update according to need of dataset)
+Wavelet Autoencoder — Haar-like decomposition + reconstruction error per channel
+Statistical Autoencoder — mean-structure bottleneck, simulates as per jupyter notebook linear AE
+DBSCAN — noise points (label = -1) flagged as anomalies, same as notebook scatter plot
+Threshold — combined error above the Nth percentile also flags anomalies
+
+#As it is difficult for model and interface to handle large datset a small, synthetic datset (iot_telemetry_data_1000_rows.csv) is given for the demo purpose in order to try and run the interface for understanding of working and output.
